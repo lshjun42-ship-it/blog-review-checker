@@ -1,0 +1,23 @@
+{
+  "name": "blog-review-checker",
+  "version": "1.0.0",
+  "description": "블로그 체험단 자동 검수 시스템",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.0.0",
+    "@anthropic-ai/sdk": "^0.24.3",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1"
+  }
+}
